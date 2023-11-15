@@ -1,0 +1,60 @@
+{
+  "name": "kanbandb-example",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://edmondhui.com/cooperts-example",
+  "dependencies": {
+    "@execonline-inc/decoders": "^6.2.0",
+    "@execonline-inc/logging": "^5.3.0",
+    "@execonline-inc/resource": "^6.15.0",
+    "@execonline-inc/url": "^5.7.0",
+    "@types/jest": "^28.1.5",
+    "@types/node": "^18.0.4",
+    "@types/react": "^18.0.15",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-modal": "^3.13.1",
+    "ajaxian": "^4.1.0",
+    "cra-template": "1.0.3",
+    "gh-pages": "^3.2.3",
+    "jsonous": "^7.3.0",
+    "kanbandb": "^1.0.1",
+    "mobx": "^4.15.7",
+    "mobx-react": "^5.2.8",
+    "mobx-utils": "^5.6.2",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.14.4",
+    "react-scripts": "3.4.3",
+    "taskarian": "^4.1.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.0"
+  }
+}

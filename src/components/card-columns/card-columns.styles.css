@@ -1,0 +1,26 @@
+.columns-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  background: linear-gradient(0deg, rgba(209, 222, 234, 1) 0%, rgba(209, 222, 234, 1) 70%, rgba(237, 242, 247, 1) 90%);
+}
+
+body, html, #root, .columns-container {
+  height: 100%;
+}
+
+.column-container {
+  background-color: #EDF2F7;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.column-title {
+  font-size: 24px;
+  color: #000082;
+  margin: 5% 0;
+}

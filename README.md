@@ -1,2 +1,3 @@
-# drag_and_drop_work
-Created with CodeSandbox
+# KanbanDB App
+
+![Kanban Mockup](public/kanban-example@2x.png)
